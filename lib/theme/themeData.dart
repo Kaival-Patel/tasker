@@ -14,7 +14,9 @@ class AppThemes {
           bodyText2: TextStyle(color: ThemeColors.darkScaffoldColor),
           headline3: TextStyle(color: ThemeColors.darkScaffoldColor),
           headline4: TextStyle(color: ThemeColors.darkScaffoldColor),
+          headline5: TextStyle(color: ThemeColors.darkScaffoldColor),
           headline6: TextStyle(color: ThemeColors.darkScaffoldColor),
+          subtitle1: TextStyle(color: ThemeColors.darkScaffoldColor),
           ));
   final darkTheme = ThemeData(
       primaryColor: ThemeColors.greenColor,
@@ -27,6 +29,8 @@ class AppThemes {
           bodyText2: TextStyle(color: ThemeColors.lightScaffoldColor),
           headline3: TextStyle(color: ThemeColors.lightScaffoldColor),
           headline6: TextStyle(color: ThemeColors.lightScaffoldColor),
-          headline4: TextStyle(color: ThemeColors.lightScaffoldColor)
+          headline4: TextStyle(color: ThemeColors.lightScaffoldColor),
+          headline5: TextStyle(color: ThemeColors.lightScaffoldColor),
+          subtitle1: TextStyle(color: ThemeColors.lightScaffoldColor),
           ));
 }

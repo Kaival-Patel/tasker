@@ -26,7 +26,7 @@
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png"/>
 
-  <title>tasker</title>
+  <title>Tasker</title>
   <link rel="manifest" href="manifest.json">
 </head>
 <body>
@@ -40,6 +40,30 @@
       });
     }
   </script>
-  <script src="main.dart.js" type="application/javascript"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-analytics.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.21.1/firebase-storage.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-functions.js"></script>
+  
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyBFnCswD5wiODBT-ZJ24rQf2LTD8zys-0E",
+    authDomain: "tasker-f54ce.firebaseapp.com",
+    projectId: "tasker-f54ce",
+    storageBucket: "tasker-f54ce.appspot.com",
+    messagingSenderId: "1054460281735",
+    appId: "1:1054460281735:web:d3d1ea55123c37ddadc922",
+    measurementId: "G-KY87XS1SMG"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+<script src="main.dart.js" type="application/javascript"></script>
 </body>
 </html>
